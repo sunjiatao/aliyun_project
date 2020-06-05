@@ -1,0 +1,190 @@
+*{margin:0;padding:0;text-decoration:none;}
+.app{
+    width: 100%;
+    height: 100%;
+    background: #faf8f8;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url(../images/bg-demo.png);
+}
+.conent-box{
+    width: 980px;
+    margin:0 auto;
+    height:auto;
+}
+.demo-title{
+    color: #333;
+    margin-top: 6px;
+    padding-top: 97px;
+    margin-bottom: 35px;
+    text-align: center;
+}
+.demo-title span{
+    font-size: 34px;
+    font-weight: 500;
+    line-height: 51px;
+}
+
+.demo-content{
+    padding-bottom: 104px;
+    height:500px;
+
+}
+
+.example-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.demo-box{
+    width: 300px;
+    height: 210px;
+    margin-top: 28px;
+    border-radius: 8px;
+    background: #fff;
+    display: inline-block;
+    box-shadow: 0 4px 20px rgba(73,36,36,.1);
+}
+
+.inner-box{
+    width: 300px;
+    height: 210px;
+    background:#fff;
+    text-align: center;
+}
+.inner-box-sweep-code{
+    margin-top: 39px;
+}
+.btn-style{
+    display: inline-block;
+    font-weight: 500;
+    font-size: 18px;
+    color: #333;
+    margin-top: 15px;
+}
+
+/* 弹出层 start*/
+.popOutBg {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: rgba(0,0,0,.6);
+    display: none;
+}
+
+.z-box {
+    position: fixed;
+    width: 1200px;
+    height: 650px;
+    top: 50%;
+    left: 50%;
+    margin-top: -325px;
+    margin-left: -600px;
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    display: none;
+}
+
+.z-box > span {
+    position: absolute;
+    right: 10px;
+    top: 0;
+    height: 42px;
+    line-height: 42px;
+    color: #000;
+    font-size: 30px;
+    cursor: pointer;
+}
+/* 弹出层end */
+
+
+/* 二维码登录start */
+#demos-scanLogin-z{
+    display: none;
+}
+.demos-title{
+    margin-left: 30px;
+    font-size: 30px;
+}
+
+.scanLogin-box{
+    width:1200px;
+    height:320px;
+    margin-top: 100px;
+
+}
+.scanLogin-box span{
+    text-align: center;
+    font-size:23px;
+    display: block;
+}
+.qrcode-img-box{
+    margin: 40px auto auto;
+    width: 238px;
+    height: 238px;
+    background: #fff;
+    box-shadow: 0 4px 16px rgba(0,0,0,.2);
+    border-radius: 8px;
+}
+
+.qrcode-img-content{
+    float: left;
+    margin: 27px;
+    width: 184px;
+    height: 184px;
+    background: #fff;
+    background: url(../images/Rectangle.png) no-repeat;
+    box-sizing: border-box;
+}
+.qrcode-img-content img{
+    margin-top: 13px;
+    margin-left: 13px;
+}
+
+.login-status{
+    padding-top:100px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+.login-status span{
+    margin-top:20px;
+    font-size: 20px;
+}
+.code-status{
+    display: none;
+}
+.recode{
+    width:140px;
+    height:35px;
+    background:#d02129;
+    margin-top:20px;
+}
+
+.recode a{
+    color:#fff;
+    text-align: center;
+    line-height: 35px;
+    font-size: 20px;
+    display: block;
+}
+
+.left-img{
+    position:absolute;
+    display: block;
+    left: 0;
+    top: 70%;
+}
+.right-img{
+    position:absolute;
+    display: block;
+    right: 0;
+    top: 70%;
+}
+/* 二维码登录end */

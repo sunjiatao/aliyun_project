@@ -74,23 +74,23 @@
 							<div class="tb-booth tb-pic tb-s310">
 								<a href="{{$shop->pic}}"><img src="{{$shop->pic}}" alt="细节展示放大镜特效" rel="{{$shop->pic}}" class="jqzoom" /></a>
 							</div>
-							<!-- <ul class="tb-thumb" id="thumblist">
-								<li class="tb-selected">
-									<div class="tb-pic tb-s40">
-										<a href="#"><img src="{{$shop->pic}}" mid="{{$shop->pic}}" big="{{$shop->pic}}"></a>
-									</div>
-								</li>
-								<li>
-									<div class="tb-pic tb-s40">
-										<a href="#"><img src="/static/Home/images/02_small.jpg" mid="/static/Home/images/02_mid.jpg" big="/static/Home/images/02.jpg"></a>
-									</div>
-								</li>
-								<li>
-									<div class="tb-pic tb-s40">
-										<a href="#"><img src="/static/Home/images/03_small.jpg" mid="/static/Home/images/03_mid.jpg" big="/static/Home/images/03.jpg"></a>
-									</div>
-								</li>
-							</ul> --!>
+{{--							<!-- <ul class="tb-thumb" id="thumblist">--}}
+{{--								<li class="tb-selected">--}}
+{{--									<div class="tb-pic tb-s40">--}}
+{{--										<a href="#"><img src="{{$shop->pic}}" mid="{{$shop->pic}}" big="{{$shop->pic}}"></a>--}}
+{{--									</div>--}}
+{{--								</li>--}}
+{{--								<li>--}}
+{{--									<div class="tb-pic tb-s40">--}}
+{{--										<a href="#"><img src="/static/Home/images/02_small.jpg" mid="/static/Home/images/02_mid.jpg" big="/static/Home/images/02.jpg"></a>--}}
+{{--									</div>--}}
+{{--								</li>--}}
+{{--								<li>--}}
+{{--									<div class="tb-pic tb-s40">--}}
+{{--										<a href="#"><img src="/static/Home/images/03_small.jpg" mid="/static/Home/images/03_mid.jpg" big="/static/Home/images/03.jpg"></a>--}}
+{{--									</div>--}}
+{{--								</li>--}}
+{{--							</ul> --!>--}}
 						</div>
 
 						<div class="clear"></div>
@@ -122,7 +122,7 @@
 							</div>
 
 							<!--地址-->
-							<dl class="iteminfo_parameter freight">
+							<dl style="display: none;" class="iteminfo_parameter freight">
 								<dt>配送至</dt>
 								<div class="iteminfo_freprice">
 									<div class="am-form-content address">
@@ -178,7 +178,7 @@
 
 												<div class="theme-signin-left">
 
-													<div class="theme-options">
+													<div class="theme-options" style="display: none;">
 														<div class="cart-title">口味</div>
 														<ul>
 															<li class="sku-line selected">原味<i></i></li>
@@ -230,7 +230,7 @@
 							</dl>
 							<div class="clear"></div>
 							<!--活动	-->
-							<div class="shopPromotion gold" style="width: 400px;height: 100px;position: relative;top: -430px;left: 880px;">
+							<div class="shopPromotion gold" style="width: 400px;height: 100px;position: relative;top: -430px;left: 880px;display: none;">
 								<div class="hot">
 									<dt class="tb-metatit">店铺优惠</dt>
 									<div class="gold-list">
@@ -262,7 +262,7 @@
 									<input type="hidden" name="id" value="{{$shop->id}}">
 									{{csrf_field()}}
 									<!-- <button id="LikBasket" title="加入购物车" type="submit">加入购物车</button> -->
-									<input type="submit" name="" id="LikBasket" value="加入购物车">
+									<input style="width:80px;height:30px;" type="submit" name="" id="LikBasket" value="加入购物车">
 								</div>
 							</li>
 						</div>
@@ -274,7 +274,7 @@
 				</div>
 
 				<!--优惠套装-->
-				<div class="match" style="position: relative;top: -150px;">
+				<div class="match" style="position: relative;top: -150px;display: none;">
 					<div class="match-title">优惠套装</div>
 					<div class="match-comment">
 						<ul class="like_list">
@@ -304,7 +304,7 @@
 							
 				<!-- introduce-->
 
-				<div class="introduce" style="position: relative;top: -150px;">
+				<div class="introduce" style="position: relative;top: -100px;display: none;">
 					<div class="browse">
 					    <div class="mc"> 
 						     <ul>					    

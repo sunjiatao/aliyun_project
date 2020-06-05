@@ -63,8 +63,12 @@ Route::group(['middleware'=>'adminlogin'],function(){
 
 });
 
+//demo示例
+Route::resource('/demo','Demo\DemoController');
+Route::get('/scanLogin/{code}','Demo\DemoController@phoneScanLogin');
 
 
+Route::resource('/test','Demo\TestController');
 
 
 

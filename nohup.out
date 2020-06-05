@@ -1,0 +1,55 @@
+用户-1-已连接
+[2020-06-04 22:40:55 $17840.0]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2020-06-04 22:40:55 #17833.1]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2020-06-04 22:40:55 *17842.0]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
+用户-2-已连接
+用户-3-已连接
+用户-4-已连接
+用户-5-已连接
+[2020-06-05 12:39:37 #17833.1]	INFO	Server is shutdown now
+[2020-06-05 14:39:01 $20794.0]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2020-06-05 14:39:01 #20787.1]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2020-06-05 14:39:01 *20796.0]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
+用户-1-已连接
+用户-2-已连接
+用户-3-已连接
+用户-4-已连接
+用户-5-已连接
+用户-6-已连接
+用户-7-已连接
+用户-8-已连接
+用户-9-已连接
+用户-10-已连接
+用户-11-已连接
+用户-12-已连接
+用户-13-已连接
+用户-14-已连接
+用户-15-已连接
+用户-16-已连接
+用户-17-已连接
+用户-18-已连接
+用户-19-已连接
+用户-20-已连接
+用户-21-已连接
+用户-22-已连接
+用户-23-已连接
+用户-24-已连接
+用户-25-已连接
+用户-26-已连接
+用户-27-已连接
+用户-28-已连接
+用户-29-已连接
+用户-30-已连接
+用户-31-已连接
+用户-32-已连接
+[2020-06-05 15:00:28 #20787.1]	INFO	Server is shutdown now
+[2020-06-05 15:00:54 $20914.0]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2020-06-05 15:00:54 #20907.1]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2020-06-05 15:00:54 *20916.0]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
+用户-1-已连接
+用户-2-已连接
+用户-3-已连接
+用户-4-已连接
+用户-5-已连接
+[2020-06-05 21:25:16 #20907.1]	INFO	Server is shutdown now
+用户-1-已连接
